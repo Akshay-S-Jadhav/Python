@@ -6,7 +6,7 @@ Created on Fri Sep 17 11:53:17 2021
 """
 
 """
-   This is Game which is played between two person, where they first decide 
+   This is Game is played between two person, where they first decide 
    the ending point of the game, And count alternatly.
    
    Here the multiple of 3 should be called as Fizz, multiple of 5 should be called as Buzz 
