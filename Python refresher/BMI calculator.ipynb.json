@@ -1,0 +1,39 @@
+{
+  "metadata": {
+    "kernelspec": {
+      "name": "python",
+      "display_name": "Python (Pyodide)",
+      "language": "python"
+    },
+    "language_info": {
+      "codemirror_mode": {
+        "name": "python",
+        "version": 3
+      },
+      "file_extension": ".py",
+      "mimetype": "text/x-python",
+      "name": "python",
+      "nbconvert_exporter": "python",
+      "pygments_lexer": "ipython3",
+      "version": "3.8"
+    }
+  },
+  "nbformat_minor": 4,
+  "nbformat": 4,
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "source": "# BMI calculator",
+      "metadata": {}
+    },
+    {
+      "cell_type": "code",
+      "source": "def calculate_bmi():\n    weight = float(input(\"Enter your weight in kilograms: \"))\n    height = float(input(\"Enter your height in meters: \"))\n    \n    bmi = weight / (height ** 2)\n    print(f\"Your BMI is: {bmi:.2f}\")\n\ncalculate_bmi()\n",
+      "metadata": {
+        "trusted": true
+      },
+      "outputs": [],
+      "execution_count": null
+    }
+  ]
+}
